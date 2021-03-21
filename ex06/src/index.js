@@ -10,11 +10,10 @@ function myNes() {
       },
     },
   };
+  // Only change code below this line
+  var gloveBoxContents = myStorage.car.inside["glove box"];
+  return gloveBoxContents;
+  // Only change code above this line
 }
-
-// Only change code below this line
-
-// Only change code above this line
-
 console.log(myNes());
 module.exports = myNes;
